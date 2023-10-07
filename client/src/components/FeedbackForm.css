@@ -1,0 +1,75 @@
+/* FeedbackForm.css */
+/* Example CSS for feedback form */
+.feedback-form {
+  background: transparent; /* Set a transparent background */
+  padding: 20px;
+  max-width: 400px; /* Limit the maximum width of the form */
+  margin: 0 auto; /* Center the form horizontally */
+  border: none; /* Remove the border */
+  border-radius: 10px; /* Add rounded corners to the form */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  */
+}
+
+.feedback-text {
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Example CSS for text input */
+.text-input {
+  width: 100%;
+  padding: 10px;
+  border: none; /* Remove the border */
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #000;
+  background: rgba(255, 255, 255, 0.5); 
+}
+
+.text-input:focus {
+  outline: none; /* Remove the outline on focus */
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea {
+  height: 100px; /* Make the textarea smaller */
+  padding: 10px;
+  border: none; /* Remove the border */
+  border-radius: 5px;
+  font-size: 16px;
+  background: #000; 
+  margin-bottom: 15px;
+}
+
+textarea:focus {
+  outline: none; /* Remove the outline on focus */
+}
+
+button {
+  background: transparent; /* Set a transparent background */
+  color: #ffffff;
+  border: none; /* Remove the border */
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}

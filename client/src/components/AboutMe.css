@@ -1,0 +1,54 @@
+/* AboutMe.css */
+/* Example CSS for the About Me section */
+
+.about-me {
+    padding: 40px;
+    text-align: center;
+    color: white; /* Set text color to white */
+}
+
+.about-me-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white; /* Set text color to white */
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: white; /* Set text color to white */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-top: 10px;
+    font-size: 18px;
+    color: white; /* Set text color to white */
+}
+
+a {
+    text-decoration: none;
+    color: #007bff; /* Link color */
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #0056b3; /* Change link color on hover */
+}

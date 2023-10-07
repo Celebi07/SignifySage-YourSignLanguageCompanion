@@ -1,0 +1,18 @@
+/* MainContent.css */
+/* Example CSS for the main content container */
+
+.main-content {
+    display: flex; /* Display children side by side */
+    justify-content: space-between; /* Add space between children */
+    padding: 20px;
+    max-width: 1200px; /* Set maximum width for content */
+    margin: 0 auto;
+  }
+  
+  /* Media query for responsive layout (adjust as needed) */
+  @media (max-width: 768px) {
+    .main-content {
+      flex-direction: column; /* Stack children vertically on smaller screens */
+    }
+  }
+  

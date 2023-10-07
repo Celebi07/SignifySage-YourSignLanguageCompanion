@@ -1,0 +1,64 @@
+/* Header.css */
+
+/* Define your color variables */
+:root {
+    /* --primary-color: #007bff; 
+    --secondary-color: #0056b3;  */
+    --text-color: #ffffff; /* Text color */
+  }
+  
+  .header {
+    background-color: var(--primary-color); /* Use primary color for the header background */
+    color: var(--text-color); /* Use text color for text within the header */
+    padding: 20px;
+    text-align: center; /* Center-align the text */
+    position: relative;
+  }
+  
+  .logo {
+    /* background: url('./logo.jpg'); */
+    display: flex;
+    flex-direction: column; /* Stack logo and text vertically */
+    align-items: center; /* Center-align the logo and text */
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust the logo size as needed */
+    height: 100px;
+    margin-bottom: 10px; /* Add spacing between the logo and text */
+  }
+  
+  .header h1 {
+    font-family: 'Harrington'; /* Replace 'YourCustomFont' with your chosen font */
+    font-size: 48px; /* Adjust the font size as needed */
+    text-transform: uppercase; /* Convert text to uppercase for styling */
+    animation: sparkle 2s linear infinite, shadow-pulse 2s infinite; /* Apply sparkle and shadow animations */
+  }
+  
+  @keyframes sparkle {
+    0% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.8;
+      transform: scale(1.05);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes shadow-pulse {
+    0% {
+      text-shadow: none;
+    }
+    50% {
+      text-shadow: 2px 2px 4px rgba(235, 230, 230, 0);
+    }
+    100% {
+      text-shadow: none;
+    }
+  }
+  

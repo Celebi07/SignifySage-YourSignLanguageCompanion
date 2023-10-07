@@ -1,0 +1,48 @@
+/* Navbar.css */
+/* Example CSS for the navbar */
+
+.navbar {
+    /* background-color: #333; */
+    color: #fff;
+    display: flex;
+    justify-content: flex-end; /* Align links to the right */
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-links a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  /* Add some styles to make the links look attractive */
+  .nav-links a::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #007bff;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .nav-links a:hover::before {
+    width: 100%; /* Underline effect on hover */
+  }
+  

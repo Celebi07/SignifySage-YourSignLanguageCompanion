@@ -16,7 +16,7 @@ Our project is built upon a meticulously collected and curated dataset of sign l
 
 ## Model Access
 
-You can access the trained CNN model on [Google Drive](https://drive.google.com/file/d/15FBvMtQXeE4Ar4C2iNWkOhjikYgQVzF8/view?usp=sharing). Make sure to follow the instructions in the README to use the model effectively.
+You can access the trained CNN model on [Google Drive](https://drive.google.com/file/d/1jfzTv_Hz_3meH8p-Dh1bv7yr_tAV8OTa/view?usp=sharing). Make sure to follow the instructions in the README to use the model effectively.
 
 ## Getting Started
 
